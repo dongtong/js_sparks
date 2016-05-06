@@ -1,0 +1,29 @@
+{
+  "name": "async_with_promise",
+  "version": "1.0.0",
+  "description": "async javascript invoke with promise",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js --live"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongtong/async_with_promise.git"
+  },
+  "keywords": [
+    "async",
+    "promise"
+  ],
+  "author": "dongtong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dongtong/async_with_promise/issues"
+  },
+  "homepage": "https://github.com/dongtong/async_with_promise#readme",
+  "devDependencies": {
+    "budo": "^8.2.2"
+  },
+  "dependencies": {
+    "xhr": "^2.2.0"
+  }
+}
