@@ -18,10 +18,20 @@
 
 - 客户端和Node.js通用[promise](https://www.promisejs.org/)
 
-#### async & await
+#### [async & await](https://tc39.github.io/ecmascript-asyncawait/)
 
 - esnext实现方式
 
 - 通过babel可以降级，运行在特定浏览器中。
 
 - 用同步方式实现异步调用。
+
+- 查看[esnext](http://kangax.github.io/compat-table/esnext/)支持情况 
+
+- 环境搭建
+
+        $ npm install babel-cli -g
+        $ touch .babelrc
+        $ npm install --save-dev babel-preset-es2015 
+        $ npm install --save babel-preset-stage-3
+        $ babel app.js -o es6.js
