@@ -16,6 +16,8 @@
 
 - 同时如果其中一个then抛出异常（或者手动抛出异常），后面的then将不会被执行。
 
+- 客户端和Node.js通用[promise](https://www.promisejs.org/)
+
 #### async & await
 
 - esnext实现方式
